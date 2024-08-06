@@ -1,1 +1,19 @@
+1 Instalar Servidor apache y mysql, lo mas recomendable Xampp
+2 Cargar la base de datos mysql agua.sql que se encuentra en el archivo Zip
+3 Copiar la carpeta agua al directorio raiz del servidor o a la carpeta htdocs si el servidor es Xampp
+
+4 Configurar la conexion a la base de datos en el archivo /agua/admin/bd.php con los siguientes parametros
+
+
+$hostname_acceso = "localhost";   /*nombre del servidor */
+
+$database_acceso = "agua";    /*nombre de la base de datos*/
+
+$username_acceso = "root";   /*Nombre del usuario */
+
+$password_acceso = "";     /*contraseña del usuario*/
+
+5. Pagina inicial https://localhost/agua/admin/login.php
+ Usuario de inicio de sessión
+
 
